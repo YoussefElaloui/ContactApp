@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        lst.findViewById(R.id.lst);
+        lst=findViewById(R.id.lst);
         db=new Db(this);
 
 

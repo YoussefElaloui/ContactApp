@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ContactApp/app/src/main/res/drawable/phase1.xml" value="0.117" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ContactApp/app/src/main/res/drawable/phase2.xml" value="0.117" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ContactApp/app/src/main/res/drawable/pressid.xml" value="0.117" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ContactApp/app/src/main/res/layout/activity_add_contact.xml" value="0.12552083333333333" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ContactApp/app/src/main/res/layout/activity_details.xml" value="0.2" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ContactApp/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ContactApp/app/src/main/res/layout/contact.xml" value="0.2" />

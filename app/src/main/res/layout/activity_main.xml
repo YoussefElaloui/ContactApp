@@ -10,6 +10,11 @@
     <Button
         style="@style/btn"
         android:text="Add new Contact"
+        android:id="@+id/btn_ddolatonji"
+        android:onClick="ddolpa"/>
+    <Button
+        style="@style/btn"
+        android:text="DElete Contact"
         android:id="@+id/btn_addNew"/>
 
     <ListView

@@ -35,18 +35,18 @@ public class MainActivity extends AppCompatActivity {
         });
         db=new Db(this);
 
-//
-//        cc=new ArrayList<>();
-//        cc.add(new Contact("Youness","male","0673284936",R.drawable.male));
-//        cc.add(new Contact("hmido","male","0602884936",R.drawable.male));
-//        cc.add(new Contact("kaido","male","0013700936",R.drawable.male));
-//        cc.add(new Contact("podingo","female","31903847",R.drawable.female));
-//        cc.add(new Contact("pinasu","male","47403403",R.drawable.male));
-//        cc.add(new Contact("omanko","female","077393622",R.drawable.female));
-//        cc.add(new Contact("opaiyo","female","1102472",R.drawable.female));
-//        for (Contact c:cc)
-//            if (Db.insertContact(db.getWritableDatabase(),c)==-1)
-//            Toast.makeText(this, "Cannot insert data into database", Toast.LENGTH_LONG).show();
+
+        cc=new ArrayList<>();
+        cc.add(new Contact("Youness","male","0673284936",R.drawable.male));
+        cc.add(new Contact("hmido","male","0602884936",R.drawable.male));
+        cc.add(new Contact("kaido","male","0013700936",R.drawable.male));
+        cc.add(new Contact("podingo","female","31903847",R.drawable.female));
+        cc.add(new Contact("pinasu","male","47403403",R.drawable.male));
+        cc.add(new Contact("omanko","female","077393622",R.drawable.female));
+        cc.add(new Contact("opaiyo","female","1102472",R.drawable.female));
+        for (Contact c:cc)
+            if (Db.insertContact(db.getWritableDatabase(),c)==-1)
+            Toast.makeText(this, "Cannot insert data into database", Toast.LENGTH_LONG).show();
         cc=Db.getAllContact(db.getReadableDatabase());
         ArrayList<HashMap<String,Object>> data=new ArrayList<>();
         for (Contact c:cc){
@@ -69,5 +69,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(in);
             }
         });
+    }
+
+    public void ddolpa(View view) {
+        Intent i=new Intent(MainActivity.this,DeleteActivity.class);
+        startActivity(i);
     }
 }
